@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dettagli Prodotto</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="info">
+            <span class="category">Nike man</span>
+            <h2>Performance with comfort</h2>
+            <span class="price">250,00€</span>
+
+            <form class="properties-selection">
+                <div class="property-selection">
+                    <span class="property-label">
+                        Seleziona Taglia
+                    </span>
+                    <div class="property-values">
+                        <input class="square-radio-input" type="radio" name="size" id="square-radio-0" value="39" checked="checked"
+                            hidden>
+                        <label class="square-radio" for="square-radio-0">39</label>
+                        <input class="square-radio-input" type="radio" name="size" id="square-radio-1" value="40" hidden>
+                        <label class="square-radio" for="square-radio-1">40</label>
+                        <input class="square-radio-input" type="radio" name="size" id="square-radio-2" value="41" hidden>
+                        <label class="square-radio" for="square-radio-2">41</label>
+                        <input class="square-radio-input" type="radio" name="size" id="square-radio-3" value="42" hidden>
+                        <label class="square-radio" for="square-radio-3">42</label>
+                    </div>
+                </div>
+                <div class="property-selection">
+                    <span class="property-label">
+                        Seleziona Colore
+                    </span>
+                    <div class="property-values">
+                        <input class="color-radio-input" id="color-radio-input-0" type="radio" name="color"
+                           value="blue" checked="checked" hidden>
+                        <label class="color-radio" for="color-radio-input-0" style="color: steelblue"></label>
+                        <input class="color-radio-input" id="color-radio-input-1" type="radio" name="color" value="red" hidden>
+                        <label class="color-radio" for="color-radio-input-1" style="color: maroon"></label>
+                        <input class="color-radio-input" id="color-radio-input-2" type="radio" value="black" name="color" hidden>
+                        <label class="color-radio" for="color-radio-input-2" style="color: black"></label>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button secondary>Aggiungi al carrello</button>
+                    <button primary>Compra subito</button>
+                </div>
+            </form>
+
+        </div>
+
+        <div id="images" class="images">
+            <a href="#" class="close">CHIUDI</a>
+            <h3>NIKE</h3>
+
+            <a href="#images" class="open-images">
+                <img src="images/zoom-in.svg" alt="open" width="20" height="20">
+            </a>
+
+            <input class="image-radio-input" id="image-radio-input-0" type="radio" name="image" checked="checked"
+                hidden>
+            <div class="image">
+                <img src="images/shoe1.png" alt="Scarpa NIKE primo scatto">
+            </div>
+            <div class="image-buttons">
+                <label class="image-radio" for="image-radio-input-2">
+                    <img src="images/left-arrow.svg" class="arrow" alt="precedente">
+                </label>
+                <label class="image-radio" for="image-radio-input-1">
+                    <img src="images/left-arrow.svg" class="arrow reversed" alt="successivo">
+                </label>
+            </div>
+            <input class="image-radio-input" id="image-radio-input-1" type="radio" name="image" checked="checked"
+                hidden>
+            <div class="image">
+                <img src="images/shoe2.png" alt="Scarpa NIKE secondo scatto">
+            </div>
+            <div class="image-buttons">
+                <label class="image-radio" for="image-radio-input-0">
+                    <img src="images/left-arrow.svg" class="arrow" alt="precedente">
+                </label>
+                <label class="image-radio" for="image-radio-input-2">
+                    <img src="images/left-arrow.svg" class="arrow reversed" alt="successivo">
+                </label>
+            </div>
+            <input class="image-radio-input" id="image-radio-input-2" type="radio" name="image" checked="checked"
+                hidden>
+            <div class="image">
+                <img src="images/shoe3.png" alt="Scarpa NIKE terzo scatto">
+            </div>
+            <div class="image-buttons">
+                <label class="image-radio" for="image-radio-input-1">
+                    <img src="images/left-arrow.svg" class="arrow" alt="precedente">
+                </label>
+                <label class="image-radio" for="image-radio-input-0">
+                    <img src="images/left-arrow.svg" class="arrow reversed" alt="successivo">
+                </label>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
